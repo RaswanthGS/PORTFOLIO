@@ -16,4 +16,4 @@ def home(request):
         'forms':form
     }
 
-    return render(request, 'blog/index.html', context)
+    return render(request, 'blog/in.html', context)
