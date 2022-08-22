@@ -17,9 +17,3 @@ def home(request):
     }
 
     return render(request, 'blog/index.html', context)
-
-def generic(request):
-    return render(request, 'blog/generic.html')
-
-def elements(request):
-    return render(request, 'blog/elements.html')
