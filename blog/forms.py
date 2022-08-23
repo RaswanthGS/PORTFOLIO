@@ -1,4 +1,3 @@
-from tkinter.ttk import Style
 from django import forms
 from django.forms import ModelForm, widgets
 from . import models
